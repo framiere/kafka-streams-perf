@@ -1,4 +1,4 @@
- Let's see how Kafka streams beahves with ton of data
+ Let's see how Kafka streams behaves with ton of data
  
  ```
  ./confluent destroy
@@ -13,4 +13,4 @@
  ./kafka-console-consumer --bootstrap-server localhost:9092 --topic input
  ```
  
-Live action : https://asciinema.org/a/4CbYudc3FBGWM1cySp5hWjxFg
+Live action on my laptop : https://asciinema.org/a/4CbYudc3FBGWM1cySp5hWjxFg
