@@ -6,7 +6,7 @@
  ./kafka-topics --zookeeper localhost:2181 --create --topic input --partitions 6 --replication-factor 1
  ./kafka-topics --zookeeper localhost:2181 --create --topic output --partitions 6 --replication-factor 1
  ./kafka-topics --zookeeper localhost:2181 --list
- ./mvn install
+ mvn install
  java -classpath target/streams-*jar com.github.framiere.ProduceDummyEvents
  java -classpath target/streams-*jar com.github.framiere.Reduce
  ./kafka-console-consumer --bootstrap-server localhost:9092 --topic output
